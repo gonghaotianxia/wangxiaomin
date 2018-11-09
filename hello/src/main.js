@@ -3,6 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// import 'swiper'
+// import 'swiper/dist/css/swiper.min.css'
+import '../src/assets/js/flexible_css.debug'
+import '../src/assets/js/flexible.debug'
+import Myindex from './components/Myindex'
+import faxian from './components/faxian'
+import goumai from './components/goumai'
+import wanpan from './components/wanpan'
+import myde from './components/myde'
+import '../static/4.7.0/css/font-awesome.min.css'
 
 Vue.config.productionTip = false
 

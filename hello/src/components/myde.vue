@@ -1,10 +1,9 @@
 <template>
     <div>
-        发现页面
+        我的页面
         <Myfooter></Myfooter>
     </div>
 </template>
-
 <script>
 import Myfooter from '../components/Myfooter'
 export default {
@@ -15,8 +14,5 @@ export default {
 </script>
 
 <style lang="less" scoped>
-    .px2rem(@name, @px){
-        @{name}: @px / 75 * 1rem;
-    }
 
 </style>
