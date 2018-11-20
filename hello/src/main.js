@@ -13,6 +13,7 @@ import goumai from './components/goumai'
 import wanpan from './components/wanpan'
 import myde from './components/myde'
 import '../static/4.7.0/css/font-awesome.min.css'
+import motaichuang from '@/components/motaichuang'
 
 Vue.config.productionTip = false
 

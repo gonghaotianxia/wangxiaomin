@@ -5,6 +5,7 @@ import faxian from '@/components/faxian'
 import goumai from '@/components/goumai'
 import wanpan from '@/components/wanpan'
 import myde from '@/components/myde'
+import motaichuang from '@/components/motaichuang'
 Vue.use(Router)
 
 export default new Router({
@@ -33,6 +34,11 @@ export default new Router({
       path: '/myde',
       name: 'myde',
       component: myde
+    },
+    {
+      path: '/motaichuang',
+      name: 'motaichuang',
+      component: motaichuang
     },
   ]
 })

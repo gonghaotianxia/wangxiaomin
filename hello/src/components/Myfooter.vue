@@ -27,6 +27,7 @@
                 </div>
             </router-link>
         </footer>
+         
     </div>
 </template>
 <script>
@@ -36,7 +37,7 @@ export default {
     name:"Myfooter",
     data(){
         return{
-
+            
         }
     },
     
@@ -88,4 +89,5 @@ footer div:hover{
     background: #777;
     color: #ffffff;
 }
+
 </style>
